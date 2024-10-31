@@ -10,4 +10,4 @@ function startsockd() {
 # FIXME: move to s6?
 startsockd &
 
-printf "$PIN$TOKEN\n$PASSWORD\ny" | openconnect "$@"
+openconnect "$@"
